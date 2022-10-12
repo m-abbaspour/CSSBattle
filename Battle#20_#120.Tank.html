@@ -1,0 +1,97 @@
+<div class="green-container"></div>
+<div class="red small top left"></div>
+<div class="red small top right"></div>
+<div class="red top side"></div>
+<div class="red bottom"></div>
+<div class="green g-top"></div>
+<div class="green g-middle"></div>
+<div class="green g-top g-vertical"></div>
+<div class="green g-bottom"></div>
+<div class="dots dot1"></div>
+<div class="dots dot2"></div>
+
+<style>
+  body {
+    background:#000000;
+    margin:0;
+  }
+  div {
+    position: absolute;
+  }
+  .green-container {
+    width: 360px;
+    height: 260px;
+    border: 20px solid #54C144;
+  }
+
+  .red {
+    background: #C74E4E;
+    height: 40px;
+    width: 180px;
+  }
+  .top {
+    top: 60px;
+  }
+
+  .small {
+    width: 80px;
+  }
+  .left {
+    left: 60px;
+  }
+
+  .right {
+  left: 180px;
+  }
+
+  .side {
+    top: 130px;
+    left: 230px;
+    transform: rotate(90deg);
+  }
+
+  .bottom {
+    top: 140px;
+    left: 60px;
+    width: 200px;
+  }
+
+  .dots {
+    width: 10px;
+    height: 10px;
+    background: #FFFFFF;
+    top: 215px;
+  }
+
+  .dot1 {
+    left: 120px;
+  }
+  .dot2 {
+    left: 140px;
+  }
+
+  .green {
+    background: #54C144;
+    height: 10px;
+    width: 40px;
+    left: 60px;
+  }
+
+  .g-top{
+    top:200px;
+  }
+  .g-middle {
+    top:215px;
+    left: 70px;
+  }
+  .g-bottom {
+    top:230px;
+    left: 60px;
+  }
+
+  .g-vertical{
+    left: 70px;
+    width: 20px;
+    height: 40px;
+  }
+</style>

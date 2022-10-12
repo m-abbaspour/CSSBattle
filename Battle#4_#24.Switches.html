@@ -1,0 +1,46 @@
+<div class="circle1"></div>
+<div class="circle2"></div>
+<div></div>
+<style>
+  body {
+    background: #62306D;
+    margin:0;
+  }
+  div{
+    position:absolute;
+  }
+  .circle1:before {
+    content: '';
+    width: 100px;
+    height: 150px;
+    background: #AA445F;
+    border-radius: 50px ;  
+    position:absolute;
+    left: 0px;
+    top: -50px;
+    z-index:-1;
+  }
+  .circle2, .circle1 {
+    width: 100px;
+    height: 100px;
+    background: #F7EC7D;
+    border-radius: 50%;  
+    position:absolute;
+    left: 80px;
+    top: 100px;
+  }
+  .circle2 {
+    left: 220px;
+  }
+    .circle2:after {
+    content: '';
+    width: 100px;
+    height: 150px;
+    background: #E38F66;
+    border-radius: 50px ;  
+    position:absolute;
+    left: 0px;
+    top: 0px;
+    z-index:-1;
+  }
+</style>

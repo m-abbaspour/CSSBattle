@@ -1,0 +1,84 @@
+<div class="rec rec-1"></div>
+<div class="rec rec-2"></div>
+<div class="rec rec-3"></div>
+<style>
+  body {
+    margin: 0;
+    background: #191919;
+  }
+  div {
+    position: absolute;
+  }
+  .rec {
+    width: 50px;
+    height: 90px;
+    background: transparent;
+    border: 10px solid #FE5F55;
+    border-bottom: 0;
+    top: 90px;
+  }
+  .rec-1 {
+    left: 95px;
+    width: 60px;
+  }
+  .rec-2 {    
+    border-color: #A64942;
+    left: 235px;
+    width: 30px;
+    border-right: 0;
+  }
+    .rec-3 {    
+    left: 305px;
+    width: 30px;
+    border-right: 0;
+  }    
+  .rec-2:after {
+    position: absolute;
+    content: '';
+    height: 10px;
+    width: 30px;
+    background: #FE5F55;
+    left: 70px;
+    top: 10px;
+  }
+  .rec-1:before {
+    content: '';
+    width: 50px;
+    height: 40px;
+    background: #FE5F55;
+    border-radius: 50%;
+    left: -50px;
+    top: 70px;
+    position: absolute;
+  }
+  .rec-3:before {
+    content: '';
+    position: absolute;
+    left: -120px;
+    top: 70px;
+    background:#A64942;
+    width: 50px;
+    height: 40px;
+    border-radius: 50%;
+  }
+    .rec-3:after {
+    content: '';
+    position: absolute;
+    left: -50px;
+    top: 70px;
+    background:#FE5F55;
+    width: 50px;
+    height: 40px;
+    border-radius: 50%;
+  }
+    .rec-1:after {
+    content: '';
+    position: absolute;
+    left:20px;
+    top: 70px;
+    background:#FE5F55;
+    width: 50px;
+    height: 40px;
+    border-radius: 50%;
+  }
+</style>

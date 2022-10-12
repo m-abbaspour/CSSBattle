@@ -1,0 +1,66 @@
+<div class="container">
+  <div class="pacman"></div>
+  <div class="dots dot1"></div>
+  <div class="dots dot2"></div>
+  <div class=" dots dot3"></div>
+  <div class="ghost"></div>
+  <div class="ghost-tail"></div>
+</div>
+<style>
+  body {
+    margin: 0;
+    background: #000000;
+  }
+  div {
+    position:absolute;
+    display: inline-block;
+  }
+  .container {
+    top: 120px;
+  }
+ .ghost {
+   left:280px;
+    width: 60px;
+    height:50px;
+    background: #C74E4E; 
+    border-radius: 100% 100% 0 0;
+ 
+ }
+  .ghost-tail {
+    top: 50px; 
+    left: 280px;
+    width: 60px;
+    height: 20px;
+    background:
+    linear-gradient(-45deg, transparent 75%, #C74E4E 75%) 0 50%,
+    linear-gradient( 45deg, transparent 75%, #C74E4E 75%) 0 50%;
+  background-size:20px 20px, 20px 20px;
+  }
+  
+  .pacman {
+    left: 60px;
+    width: 0px;
+    height: 0px;
+    border: 30px solid #E0E246;
+    border-right: 30px solid transparent;
+    border-radius: 60px;
+  }
+
+  .dots {
+    background: #FFFFFF;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    top: 25px;
+  }
+
+  .dot1 {
+    left: 165px;
+  }
+  .dot2 {
+    left: 195px;
+  }
+  .dot3 {
+    left: 225px;
+  }
+</style>

@@ -1,0 +1,52 @@
+<div class="triangle b-top b-left"></div>
+<div class="triangle b-top b-right"></div>
+<p class="p1"></p>
+<p class="p2"></p>
+<div class="triangle b-btm b-left"></div>
+<div class="triangle b-btm b-right"></div>
+<div class="ghost-tail"></div>
+<style>
+  body {
+    margin: 0;
+    background: #191919;
+  }
+  div, p {
+    position: absolute;
+  }
+  .triangle {
+    width: 0;
+    height: 0;
+    background: transparent;
+    border: 50px solid transparent;
+    border-top: 50px solid #4F77FF;
+  }
+  .b-top {
+      top: 75px;
+  }
+  .b-btm {
+     top: 175px;
+  }
+  p {
+    content: '';
+    width: 0;
+    height: 0;
+    background: transparent;
+    border-top: 50px solid transparent;
+    border-left: 50px solid #4F77FF;
+    border-right: 50px solid #4F77FF;
+    border-bottom:0;
+    top: 110px;
+  }
+  .p1 {
+    left: 100px;
+  }
+  .p2 {
+    left: 200px;
+  }
+  .b-left {
+    left: 100px;
+  }  
+  .b-right {
+    left: 200px;
+  }
+</style>

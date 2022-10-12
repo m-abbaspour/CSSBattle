@@ -1,0 +1,88 @@
+
+  <div class="circle"></div>
+  <div class="backwards-v blk-right"></div>
+  <div class="backwards-v blk-left"></div>
+  <div class="upward-v blu-left"></div>
+  <div class="upward-v blu-right"></div>
+  <div class="box"></div>
+  <div class="rec "></div>
+  <div class="box2"></div>
+
+
+<style>
+  body {
+    background: #FFFFFF;
+    margin: 0;
+  }
+
+  div {
+    position: absolute;
+  }
+  .box {
+    left: 80px;
+    top: 40px;
+    border: 20px solid #FFFFFF;
+    border-left-width:0;
+    border-right-width:20px;
+    height: 180px;
+    width:240px;
+  }
+  .circle {
+    background: #0088CA;
+    width: 20px;
+    height: 20px;
+    top: 140px;
+    left: 190px;
+    border-radius: 50%;
+  }
+
+  .backwards-v {
+    background: #2E2926;
+    height: 210px;
+    width: 38px;
+    top: 50px;
+  } 
+  .blk-left {
+    transform: rotate(25deg);
+    left: 135px
+  }
+  .blk-right{
+    transform: rotate(-25deg);
+    left: 230px
+  }
+
+  .upward-v {
+    background: #0088CA;
+    width: 20px;
+    border: 10px solid #FFFFFF;
+  }
+  
+  .blu-right{
+    height: 190px;
+    top: 40px;
+    transform: rotate(45deg) ;
+    left: 240px;
+  }
+  .blu-left {
+    height: 130px;
+    top: 90px;
+    transform: rotate(-45deg) ;
+    left: 140px;
+  }
+  
+.rec {
+  width: 40px;
+  height: 20px;
+  background: #0088CA;
+  transform: rotate(45deg) ;
+  top: 185px;
+  left: 170px
+}
+  .box2 {
+  width: 40px;
+  height: 40px;
+  background: #FFFFFF;
+  top: 110px;
+  left: 80px
+}
+</style>
