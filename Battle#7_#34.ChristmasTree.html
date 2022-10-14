@@ -1,0 +1,30 @@
+<div></div>
+<div></div>
+<div></div>
+<style>
+  body {
+    background: #007065;
+  }
+  div {
+    margin:0;
+    height:0;
+    width:0;
+    border: 125px solid transparent;
+    border-bottom: 100px solid #F5C181;
+    position:absolute;
+    top: 50%;
+    left:50%;
+    transform:translate(-50%, -78%);
+    z-index: 50;
+  }
+  div:first-of-type{
+    border-bottom-color: #FFEECF;
+    transform:translate(-50%, -100%);
+    z-index: 100;
+  } 
+  div:last-of-type{
+    border-bottom-color: #00A79D;
+    transform:translate(-50%, -55.5%);
+    z-index: 0;
+  }
+</style>
